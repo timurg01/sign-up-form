@@ -7,19 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="background-image">
-        <img src="./assets/leafpic.jpg" alt="beautiful leafs image">
+    <div class="sign-up-form">
+        <div class="logo">
+            <img src="./assets/odin-lined.png" alt="Odin logo" id="odin-logo">
+            <h1>Odin</h1>
+        </div>
+        <div class="form">
+            <p class="intro">This is not a real online service! You know you need something like in your life to help you realize your deepest dreams.<br>Sign up now to get started.</p>
+            <p>You know you want to.</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Thor" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" minlength="5" maxlength="20" required>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" required>
+                    <label for="con_pass">Confirm Password</label>
+                    <input type="password" name="con_pass" id="con_pass" minlength="5" maxlength="20" required>
+                </fieldset>
+            </form>
+            <button type="submit" name="Create Account">Create Account</button>
+            <p class="log-in">Already have an account?<a href="#">Log in</a></p>
+        </div>
     </div>
-    <div class="logo">
-        <img src="./assets/odin-lined.png" alt="Odin logo" id="odin-logo">
-        <h1>Odin</h1>
-    </div>
-    <form action="#" method="post">
-        <p>This is not a real online service! You know you need something like in your life to help you realize your deepest dreams.<br>Sign up now to get started.</p>
-        <p>You know you want to.</p>
-        <fieldset>
-            <legend>Let's do this!</legend>
-        </fieldset>
-    </form>
 </body>
 </html>
