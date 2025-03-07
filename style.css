@@ -60,7 +60,8 @@ fieldset {
 input {
     width: 30%;
     margin-bottom: 1.7rem;
-    border: 1px solid #e5e7eb
+    border: 1px solid #e5e7eb;
+    height: 1rem;
 }
 
 input:focus {
